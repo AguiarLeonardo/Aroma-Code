@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aroma & Code | Café para Desarrolladores</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="navbar__logo">Aroma<span class="highlight">&</span>Code_</div>
+    
+    <div class="hamburger" aria-label="Abrir menú de navegación">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
+
+    <ul class="navbar__links">
+        <li><a href="#hero" class="nav-link">Inicio</a></li>
+        <li><a href="#benefits" class="nav-link">Beneficios</a></li>
+        <li><a href="#menu" class="nav-link">Menú</a></li>
+        <li><a href="#footer" class="nav-link">Contacto</a></li>
+    </ul>
+</nav>
+
+
+    <header class="hero">
+        <div class="hero__overlay">
+            <div class="hero__content">
+                <h1 class="hero__title">El combustible para tus <span class="highlight">ideas</span>.</h1>
+                <p class="hero__subtitle">El mejor café de especialidad y Wifi de alta velocidad en la ciudad.</p>
+                <a href="#footer" class="btn-cta">Ver Ubicación</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="benefits container">
+        <h2 class="section-title">¿Por qué venir?</h2>
+        <div class="benefits__grid">
+            <div class="card benefit-card">
+                <div class="icon">🚀</div>
+                <h3>Wifi de Fibra Óptica</h3>
+                <p>600mb simétricos para que tus deploys vuelen.</p>
+            </div>
+            <div class="card benefit-card">
+                <div class="icon">🔌</div>
+                <h3>Espacios Cómodos</h3>
+                <p>Enchufes en todas las mesas. Nunca te quedes sin batería.</p>
+            </div>
+            <div class="card benefit-card">
+                <div class="icon">☕</div>
+                <h3>Café de Grano</h3>
+                <p>Tostado artesanal cada mañana para despertar tus neuronas.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="menu container">
+        <h2 class="section-title">Nuestros Favoritos</h2> <div class="menu__grid">
+            <div class="card menu-card">
+                <h3>Cappuccino Dev</h3>
+                <span class="price">$3.50</span>
+            </div>
+            <div class="card menu-card">
+                <h3>Espresso Doble</h3>
+                <span class="price">$2.00</span>
+            </div>
+            <div class="card menu-card">
+                <h3>Cheesecake Array</h3>
+                <span class="price">$4.50</span>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer" class="footer">
+        <div class="container footer__content">
+            
+            <div class="footer__info">
+                <h3>Aroma & Code</h3>
+                <p>📍 Av. Tecnología 101, Distrito Digital.</p>
+                <p>🕒 Lun-Sab: 8am - 9pm</p>
+                
+                <div class="footer__social">
+                    <a href="#" target="_blank" rel="noopener noreferrer">Síguenos en Instagram</a>
+                </div>
+            </div>
+
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.639290621062!2d-122.08624628469227!3d37.42199987982517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fba02425dad8f%3A0x279f010e8d350f28!2sGoogleplex!5e0!3m2!1ses!2sus!4v1615412345678!5m2!1ses!2sus" 
+                    width="100%" 
+                    height="200" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy"
+                    title="Ubicación de Aroma & Code">
+                </iframe>
+            </div>
+
+        </div>
+        
+        <div class="copyright">
+            <p>&copy; 2025 Aroma & Code.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
