@@ -15,7 +15,7 @@ Crear una Landing Page limpia, rápida y optimizada para dispositivos móviles (
 
 ---
 
-### ⚙️ Stack Tecnológico
+###Stack Tecnológico
 
 | Tecnología | Propósito |
 | :--- | :--- |
@@ -35,6 +35,14 @@ Este proyecto destaca las siguientes capacidades fundamentales de desarrollo web
 * **Maquetación Profesional:** Uso de la sintaxis correcta de HTML5 y creación de componentes reutilizables (`.card`).
 * **Interacción y UX:** Implementación de **Sticky Navbar** y **Smooth Scroll** para una navegación pulida.
 * **Arquitectura CSS:** Uso de variables CSS para la gestión de temas y colores, facilitando el mantenimiento y escalabilidad.
+
+## Capturas de pantalla
+
+<img width="1599" height="756" alt="image" src="https://github.com/user-attachments/assets/ba6b8361-dfa8-41b6-906e-7c41ef7d76be" />
+<img width="1599" height="756" alt="image" src="https://github.com/user-attachments/assets/62e6a17e-f4c2-472c-b7f0-b11d2bdd54ee" />
+<img width="1599" height="752" alt="image" src="https://github.com/user-attachments/assets/d74eb828-675d-4e0c-b69d-8f90af60453c" />
+
+
 
 
 ## Instalación Local
