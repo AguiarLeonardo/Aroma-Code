@@ -52,7 +52,7 @@ Para clonar y ejecutar este proyecto en tu máquina de desarrollo:
 
 1.  Clona el repositorio usando Git:
     ```bash
-    git clone [TU URL DE GITHUB]
+    git clone (https://github.com/AguiarLeonardo/Aroma-Code.git)
     ```
 2.  Navega al directorio del proyecto:
     ```bash
