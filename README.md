@@ -1,4 +1,4 @@
-# Aroma-Code
+# Aroma_Code
 Landing Page Responsiva (Mobile-First) con HTML, CSS Grid/Flexbox y JavaScript. Incluye Sticky Navbar y Smooth Scroll.
 
 # ☕ Aroma & Code: Landing Page Responsiva para Cafetería Temática 💻
